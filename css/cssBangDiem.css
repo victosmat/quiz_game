@@ -6,6 +6,10 @@ body {
     margin-top: 430px;
 }
 
+input {
+    text-indent: 10px;
+}
+
 img {
     width: 200px;
     margin-left: 40px;
