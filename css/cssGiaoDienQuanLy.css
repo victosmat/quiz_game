@@ -7,6 +7,10 @@ img {
     width: 100px;
 }
 
+input {
+    text-indent: 10px;
+}
+
 h1 {
     text-align: center;
     font-size: 30px;

@@ -131,6 +131,10 @@ input {
     box-sizing: border-box;
 }
 
+input {
+    text-indent: 10px;
+}
+
 #buttonBatDau:before {
     opacity: 0;
     content: "";
