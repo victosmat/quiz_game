@@ -1,4 +1,6 @@
 body {
+    background: center;
+    background: no-repeat;
     background-color: darkblue;
     background-image: url("../img/i.png");
 }
@@ -22,12 +24,11 @@ input {
     font-size: 25px;
     font-style: inherit;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: auto;
-    margin-top: 350px;
     text-align: center;
     background-color: rgb(110, 11, 202);
-    height: auto;
     width: 500px;
+    margin-left: 41%;
+    margin-top: 20%;
 }
 
 #chonDangNhap {

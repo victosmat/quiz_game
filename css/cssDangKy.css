@@ -1,4 +1,5 @@
 body {
+    background: no-repeat;
     background-color: darkblue;
     background-image: url("../img/i.png");
 }
@@ -33,6 +34,8 @@ img {
     background-color: rgb(110, 11, 202);
     height: auto;
     width: 500px;
+    margin-left: 41%;
+    margin-top: 20%;
 }
 
 #chonDangKy {
