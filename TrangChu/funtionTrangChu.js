@@ -1,19 +1,26 @@
 function hienAvt(res) {
-    document.images['chonAnh'].src = '../img/avt' + res + '.png';
+    document.getElementById('chonAnh').src = "../img/avt" + res + ".png";
 }
 
 //tạo phòng
 var phongMoi = document.getElementById("phongMoi");
 var taoPhong = document.getElementById("buttonTaoPhong");
-var closePhong = document.getElementsByClassName("close")[0];
+var taoPhongMoi = document.getElementsByClassName("taoPhong");
+var thoatPhong = document.getElementsByClassName("thoat");
+
 taoPhong.onclick = function () {
     phongMoi.style.display = "block";
 }
-closePhong.onclick = function () {
-    modal.style.display = "none";
-}
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+
+function btnTaoPhong() {
+    var txtNhapPhong = document.getElementById("txtPhongMoi").value;
+    if (txtNhapPhong == "") {
+        alert("Yêu cầu nhập tên phòng");
     }
+    else { document.getElementById("txtNhapPhong").value = document.getElementById("txtPhongMoi").value }
+    phongMoi.style.display = "none";
+}
+function btnThoat() {
+    document.getElementById("txtNhapPhong").value = "";
+    phongMoi.style.display = "none";
 }
